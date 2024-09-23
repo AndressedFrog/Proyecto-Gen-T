@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Laberinto de los Sueños</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" >
     <link rel="icon" href="./src/831446.png">
 </head>
 
@@ -41,9 +40,8 @@
                 </ul>
             </div>
         </div>
-        <div class="container">
-            <input type="text" id="search-bar" placeholder="Buscar película..." onkeyup="buscarPeliculas()">
-    </nav>   
+    </nav>
+
     <div class="container inicio" id="Inicio">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -51,27 +49,23 @@
             </div>
             <div class="col-md-6">
                 <h2>Bienvenidos a <strong>"El Laberinto de los Sueños"</strong></h2>
-                <p>Nos complace presentarles <span id="efecto-nombre"">" El Laberinto de los Sueños"</span>, un cine
-                        dedicado a ofrecer una experiencia cinematográfica única e inolvidable. En nuestro espacio, cada
-                        película es una aventura que te invita a explorar nuevos mundos y a sumergirte en historias
-                        cautivadoras. </p>
+                <p>Nos complace presentarles  <span id="efecto-nombre"">"El Laberinto de los Sueños"</span>, un cine dedicado a ofrecer una experiencia cinematográfica única e inolvidable. En nuestro espacio, cada película es una aventura que te invita a explorar nuevos mundos y a sumergirte en historias cautivadoras. </p>
             </div>
         </div>
     </div>
     <div class=" section">
-        <h3>¿Qué Nos Hace Especiales?</h3>
-        <div class="section container">
-                <p><strong>Selección Cuidadosa:</strong> Desde los grandes clásicos hasta las joyas del cine
-                    independiente, nuestra programación está diseñada para sorprender y deleitar a todos los amantes del
-                    séptimo arte.</p>
-                <p><strong>Ambiente Acogedor:</strong> Nuestros teatros están diseñados para ofrecer la máxima
-                    comodidad, con asientos espaciosos y una atmósfera que te hará sentirte como en casa.</p>
-                <p><strong>Innovación en Experiencia:</strong> Además de las proyecciones tradicionales, ofrecemos
-                    eventos especiales, estrenos exclusivos y experiencias interactivas que hacen que cada visita sea
-                    única.</p>
-            </section>
-            <section class="color" style="text-align: center" id="Peliculas">
-                <h2 style="text-align: center">Peliculas</h2>
+                        <h3 style="text-align: center;">¿Qué Nos Hace Especiales?</h3>
+                        <div class="section-container">
+                            <section class="sobremi col-12 col-md-6">
+
+                                <p><strong>Selección Cuidadosa:</strong> Desde los grandes clásicos hasta las joyas del cine independiente, nuestra programación está diseñada para sorprender y deleitar a todos los amantes del séptimo arte.</p>
+                                <p><strong>Ambiente Acogedor:</strong> Nuestros teatros están diseñados para ofrecer la máxima comodidad, con asientos espaciosos y una atmósfera que te hará sentirte como en casa.</p>
+                                <p><strong>Innovación en Experiencia:</strong> Además de las proyecciones tradicionales, ofrecemos eventos especiales, estrenos exclusivos y experiencias interactivas que hacen que cada visita sea única.</p>
+                            </section>
+
+                           
+            <section class="color" style="text-align: center;" id="Peliculas">
+                <h2>Peliculas</h2>
                 <div class="Peliculas row">
                     <div class="card col-12 col-md-4 mb-4">
                         <img src="./src/momo.jpg" class="card-img-top" alt="...">
@@ -98,9 +92,8 @@
                             <p class="card-text">Pezzuti le dijo</p>
                             <a href="" class="btn btn-primary">Ver pelicula</a>
                         </div>
-                    </div>
+                    </div>   
                 </div>
-            </div>
             </section>
         </div>
         <div class="form">
@@ -109,15 +102,15 @@
                 <form action="https://formspree.io/f/myyrqjbk" method="POST">
                     <div class="form-group">
                         <label for="name">Nombre</label>
-                        <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+                        <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="phone">Número de Teléfono</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Ingrese su número de teléfono">
+                        <label for="phone">Num de Telefono</label>
+                        <input type="tel" id="phone" name="phone">
                     </div>
                     <div class="form-group">
                         <label for="reference">Como supiste sobre Nosotros</label>
@@ -125,10 +118,10 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Tu mensaje</label>
-                        <textarea id="message" name="message" rows="4" placeholder="(opcional)"></textarea>
+                        <textarea id="message" name="message" rows="4"></textarea>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Submit">
                     </div>
                 </form>
             </div>
